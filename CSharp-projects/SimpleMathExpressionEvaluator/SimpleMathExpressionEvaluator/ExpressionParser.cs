@@ -38,9 +38,17 @@ namespace SimpleMathExpressionEvaluator.SimpleMathExpressionEvaluator
                 currentChar = input[i];
                 if (char.IsDigit(currentChar))
                 {
+                    if(token.Length!=0 && token.ToString().All(char.IsLetter))
+                    {
+                        expression.Operation = ParseMathOperation(token.ToString());
+                        token.Clear();
+                    }
                     token.Append(currentChar);
+
+                 
                     if(i==input.Length-1)
                         expression.RightsideOperand = double.Parse(token.ToString());
+                    
                 }
 
                 else if (MathSymbols.Contains(currentChar))
@@ -71,7 +79,12 @@ namespace SimpleMathExpressionEvaluator.SimpleMathExpressionEvaluator
 
                 else if (char.IsLetter(currentChar))
                 {
-                    leftsideInitialized = true;  //sin 60 
+                    if (!leftsideInitialized)
+                    {
+                        expression.LeftsideOperand = double.Parse(token.ToString());
+                        leftsideInitialized = true;  //sin 60 
+                        token.Clear();
+                    }
                     token.Append(currentChar);
                 }
 
