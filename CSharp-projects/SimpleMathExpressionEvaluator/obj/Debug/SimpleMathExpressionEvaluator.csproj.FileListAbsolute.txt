@@ -1,8 +1,0 @@
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\bin\Debug\SimpleMathExpressionEvaluator.exe.config
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\bin\Debug\SimpleMathExpressionEvaluator.exe
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\bin\Debug\SimpleMathExpressionEvaluator.pdb
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\obj\Debug\SimpleMathExpressionEvaluator.csproj.AssemblyReference.cache
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\obj\Debug\SimpleMathExpressionEvaluator.csproj.SuggestedBindingRedirects.cache
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\obj\Debug\SimpleMathExpressionEvaluator.csproj.CoreCompileInputs.cache
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\obj\Debug\SimpleMathExpressionEvaluator.exe
-D:\University\Coding\Basic\Basic-C#\SimpleMathExpressionEvaluator\obj\Debug\SimpleMathExpressionEvaluator.pdb
