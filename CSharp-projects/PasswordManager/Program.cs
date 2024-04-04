@@ -14,7 +14,7 @@ namespace PasswordManager
     {
         static void Main(string[] args)
         {
-            Start();
+            LogIn();
             Console.ReadLine();
         }
 
@@ -37,6 +37,91 @@ namespace PasswordManager
      
        public static Dictionary<string, string> dictPasswords  = new Dictionary<string, string>();
         const string path = "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\PasswordManager\\myPasswords.txt";
+        const string users_path = "D:\\University\\Coding\\Basic\\Basic-C#\\Projects\\PasswordManager\\Users.txt";
+
+
+        public static void LogIn()
+        {
+            string user;
+            string password;
+           bool checkIfUserFoundByUsernameAndPassword = false;
+            Dictionary<string, string> users = GetUsersFromFile(users_path);
+            do
+            {
+                Console.Clear();
+                ColorTheHeader("LOGIN Screen");
+                Console.Write("\nEnter Username : ");
+                user = Console.ReadLine();
+
+                Console.Write("\nEnter Password : ");
+                 password = Console.ReadLine();
+                checkIfUserFoundByUsernameAndPassword = CheckIfUserFoundByUsernameAndPassword(user, password,  users);
+                if (checkIfUserFoundByUsernameAndPassword == false)
+                {
+                    Console.WriteLine("\n\nInvalid Username , Password \a");
+                    Thread.Sleep(3500);
+                }
+                else
+                {
+                    Start();
+                }
+
+            } while (!checkIfUserFoundByUsernameAndPassword);
+          }
+
+        private static bool CheckIfUserFoundByUsernameAndPassword(string user, string password, Dictionary<string, string> users)
+        {
+            
+            foreach(var entry in users)
+            {
+                if (entry.Key.Equals(user,StringComparison.OrdinalIgnoreCase) && entry.Value == password)
+                    return true;
+            }
+            return false;
+        }
+
+        private static Dictionary<string, string> GetUsersFromFile(string users_path)
+        {
+            Dictionary<string, string> current_users = new Dictionary<string, string>();
+
+            try
+            {
+                string[] users = File.ReadAllLines(users_path);
+                string[] entry ;
+                foreach (string user in users)
+                {
+                    entry = user.Split(':');
+                    current_users[entry[0]] = entry[1];
+                }
+
+                            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+           return current_users;
+        }
+
+        public static Dictionary<string, string> GetPasswordsFromFileAsDictonary(string path)
+        {
+            try
+            {
+                dictPasswords.Clear();
+                string[] passwords = File.ReadAllLines(path);
+                string[] currentPassword = new string[2];
+                foreach (string password in passwords)
+                {
+                    currentPassword = password.Split(':');
+                    dictPasswords.Add(currentPassword[0], currentPassword[1]);
+                }
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            return dictPasswords;
+        }
+
         public static byte ReadChoice(byte from, byte to)
         {
             byte choice = default(byte);
@@ -93,7 +178,7 @@ namespace PasswordManager
 
         public static void PressAnyKeyToContinue()
         {
-            Console.WriteLine("\n\n\nPress Enter To Continue........");
+            Console.Write("\n\n\nPress Enter To Continue........");
             Console.Read();
         }
         public static void PerformUserChoice(enChoices choice)
@@ -221,25 +306,7 @@ namespace PasswordManager
             }
 
         }
-        public static Dictionary<string, string> GetPasswordsFromFileAsDictonary(string path)
-        {
-            try
-            {
-                dictPasswords.Clear();
-                string[] passwords = File.ReadAllLines(path);
-                string[] currentPassword = new string[2];
-                foreach (string password in passwords)
-                {
-                    currentPassword =  password.Split(':');
-                    dictPasswords.Add( currentPassword[0], currentPassword[1]);
-                }
-            }
-            catch(IOException e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-            return dictPasswords;
-        }
+      
 
         static string FormatString(string input, int width)
         {
