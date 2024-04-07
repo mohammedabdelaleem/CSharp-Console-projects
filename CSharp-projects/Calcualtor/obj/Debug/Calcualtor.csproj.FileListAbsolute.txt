@@ -1,0 +1,8 @@
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\obj\Debug\Calcualtor.csproj.AssemblyReference.cache
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\obj\Debug\Calcualtor.csproj.SuggestedBindingRedirects.cache
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\obj\Debug\Calcualtor.csproj.CoreCompileInputs.cache
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\bin\Debug\Calcualtor.exe.config
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\bin\Debug\Calcualtor.exe
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\bin\Debug\Calcualtor.pdb
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\obj\Debug\Calcualtor.exe
+D:\University\Coding\Basic\Basic-C#\OOP\bin\Calcualtor\obj\Debug\Calcualtor.pdb
