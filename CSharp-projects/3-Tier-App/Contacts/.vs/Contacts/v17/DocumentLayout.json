@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C720CE3F-1D7E-4F38-84AC-C5A953C59D33}|ContactConsoleApp-PresentationLayer\\ContactConsoleApp-PresentationLayer.csproj|d:\\university\\coding\\basic\\1-mygit\\1.1-my-git-basic-c#\\csharp-projects\\3-tier-app\\contacts\\contactconsoleapp-presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C720CE3F-1D7E-4F38-84AC-C5A953C59D33}|ContactConsoleApp-PresentationLayer\\ContactConsoleApp-PresentationLayer.csproj|solutionrelative:contactconsoleapp-presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69A68A4-68F3-4DE7-869C-A762692CE7EA}|ContactDataAccessLayer\\ContactDataAccessLayer.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\contactdataaccesslayer\\clscontactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69A68A4-68F3-4DE7-869C-A762692CE7EA}|ContactDataAccessLayer\\ContactDataAccessLayer.csproj|solutionrelative:contactdataaccesslayer\\clscontactdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3F3CD8-A771-41A4-9EC5-97A5A1B61AB8}|ContactBuissnessLayer\\ContactBuissnessLayer.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\contactbuissnesslayer\\clscontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3F3CD8-A771-41A4-9EC5-97A5A1B61AB8}|ContactBuissnessLayer\\ContactBuissnessLayer.csproj|solutionrelative:contactbuissnesslayer\\clscontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D69A68A4-68F3-4DE7-869C-A762692CE7EA}|ContactDataAccessLayer\\ContactDataAccessLayer.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\contactdataaccesslayer\\clscountrydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D69A68A4-68F3-4DE7-869C-A762692CE7EA}|ContactDataAccessLayer\\ContactDataAccessLayer.csproj|solutionrelative:contactdataaccesslayer\\clscountrydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3F3CD8-A771-41A4-9EC5-97A5A1B61AB8}|ContactBuissnessLayer\\ContactBuissnessLayer.csproj|D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\contactbuissnesslayer\\clscountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3F3CD8-A771-41A4-9EC5-97A5A1B61AB8}|ContactBuissnessLayer\\ContactBuissnessLayer.csproj|solutionrelative:contactbuissnesslayer\\clscountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 315,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactConsoleApp-PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "ContactConsoleApp-PresentationLayer\\Program.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactConsoleApp-PresentationLayer\\Program.cs",
+              "RelativeToolTip": "ContactConsoleApp-PresentationLayer\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:18:18.183Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsContactDataAccess.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactDataAccessLayer\\clsContactDataAccess.cs",
+              "RelativeDocumentMoniker": "ContactDataAccessLayer\\clsContactDataAccess.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactDataAccessLayer\\clsContactDataAccess.cs",
+              "RelativeToolTip": "ContactDataAccessLayer\\clsContactDataAccess.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAswNEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T11:23:31.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsContact.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactBuissnessLayer\\clsContact.cs",
+              "RelativeDocumentMoniker": "ContactBuissnessLayer\\clsContact.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactBuissnessLayer\\clsContact.cs",
+              "RelativeToolTip": "ContactBuissnessLayer\\clsContact.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAA5wIQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T11:20:40.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsCountry.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactBuissnessLayer\\clsCountry.cs",
+              "RelativeDocumentMoniker": "ContactBuissnessLayer\\clsCountry.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactBuissnessLayer\\clsCountry.cs",
+              "RelativeToolTip": "ContactBuissnessLayer\\clsCountry.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAowDoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:13:05.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsCountryDataAccess.cs",
+              "DocumentMoniker": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactDataAccessLayer\\clsCountryDataAccess.cs",
+              "RelativeDocumentMoniker": "ContactDataAccessLayer\\clsCountryDataAccess.cs",
+              "ToolTip": "D:\\University\\Coding\\Basic\\1-MyGit\\1.1-My-Git-Basic-c#\\CSharp-projects\\3-Tier-App\\Contacts\\ContactDataAccessLayer\\clsCountryDataAccess.cs",
+              "RelativeToolTip": "ContactDataAccessLayer\\clsCountryDataAccess.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAEoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:03:53.003Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 85,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf7341e6-9713-4309-bea6-cdb743e1804d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
